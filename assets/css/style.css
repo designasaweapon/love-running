@@ -23,7 +23,13 @@ body {
 /* Header */
 
 header{
-background-color: aqua;
+background-color: #ffffff;
+padding: 0 1rem; 
+position: fixed; 
+z-index: 99;
+width: 100%;
+box-shadow: 0 2px 2px #3a3a3a;
+
 }
 
 h1{
@@ -32,7 +38,7 @@ h1{
 
 /* Main */
 
-main {
+main{
     background-color: aquamarine;
     /* Make Main Take Up Surplus Space */
     flex: 1 0 Auto;
