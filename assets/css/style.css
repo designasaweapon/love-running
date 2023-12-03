@@ -1,5 +1,14 @@
 /* Asterisk Wildcard - Default Override*/
 
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic Project Style */
+    color: #3a3a3a;
+}
+
 *{
     box-sizing: 0;
     margin: 0;
@@ -14,8 +23,10 @@ background-color: aqua;
 
 /* Main */
 
-main{
+main {
     background-color: aquamarine;
+    /* Make Main Take Up Surplus Space */
+    flex: 1 0 Auto;
 }
 
 /* Footer */
